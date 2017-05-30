@@ -1,14 +1,19 @@
 {
   "name": "Travel",
   "version": "0.0.1",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha test/functional.js"
   },
   "dependencies": {
     "chance": "^1.0.9",
     "express": "^4.14.0",
     "moment": "^2.18.1",
     "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
   }
 }
