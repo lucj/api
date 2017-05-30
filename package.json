@@ -1,0 +1,14 @@
+{
+  "name": "Travel",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "chance": "^1.0.9",
+    "express": "^4.14.0",
+    "moment": "^2.18.1",
+    "winston": "^2.3.1"
+  }
+}
